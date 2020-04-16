@@ -446,14 +446,26 @@ footer a:hover {
 
 /* -------------------------- INICIO DE PAGINA BLOG-------------------------*/
 
-main section article h4 {
+
+main section .contenido article h4 {
     color: var(--color-principal);
-    margin: 1em 0;
+    margin: 0.825em 1em;
     font-weight: 700;
 }
 
-main section article a {
+main section .contenido article h3 {
     font-weight: 700;
+    margin-left: 1em;
+}
+
+main section .contenido article p {
+
+    margin-left: 1em;
+}
+
+main section .contenido article a {
+    font-weight: 700;
+    margin-left: 1em;
 }
 
 #ourblogs .row article {
@@ -475,10 +487,31 @@ main section article .fecha {
 
 }
 
+
+
 main section .row article .fecha p {
     color: white;
     font-size: 1.36em;
     font-weight: 700;
-    margin: 10px;
+    margin: 0.625em;
     opacity: 1;
 }
+
+/* --------------------------- INICIO MEDIA MOVIL --------------------------- */
+
+@media (min-width: 48.000em) {
+    #ourblogs .row article {
+        width: 50%;
+
+    }
+
+}
+
+@media (min-width: 62.75em) {
+    #ourblogs .row article {
+        width: 33.33%;
+    }
+
+   
+}
+
