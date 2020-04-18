@@ -489,16 +489,13 @@ main #todaymenu h2 {
 
 }
 
-main .row .lateral-izq {
-  width: 100%;
 
-}
 
-main .row .lateral-izq nav {
+main .row nav {
   padding-bottom: 1.563em;
 }
 
-main .row .lateral-izq nav ul li a {
+main .row nav ul li a {
   display: block;
   text-decoration: none;
   color: white;
@@ -508,39 +505,35 @@ main .row .lateral-izq nav ul li a {
 
 }
 
-main .row .lateral-izq nav ul li a:hover {
+main .row nav ul li a:hover {
   background-color: var(--color-principal);
   border-radius: 0.313em;
+  width: 100%;
   transition: 0.5s;
 }
 
-main .row .lateral-izq .line_menu {
+main .row .line_menu {
   width: 10%;
 }
 
-main .row .lateral-izq .line_menu hr {
+main .row .line_menu hr {
   color: var(--color-principal);
   margin-bottom: 1em;
 }
 
-main section .row .lateral-izq {
+main section .row {
 
   border-bottom: 0;
 }
 
 
-main .row .lateral-der {
-  width: 90%;
-  margin: 0 auto;
 
 
-}
-
-main .row .lateral-der h3 {
+main .row #todaymenu h3 {
   font-size: 1.250em;
 }
 
-main .row .lateral-der span {
+main .row #todaymenu span {
   font-weight: 700;
   margin-left: 0.938em;
   color: var(--color-principal);
@@ -548,15 +541,23 @@ main .row .lateral-der span {
 
 }
 
-main .row .lateral-der a {
+main .row a {
 
   font-weight: 700;
   margin: 2em 0;
 }
 
-main section .row .lateral-der,
-main section .row .lateral-izq {
-
-  border-left: 0;
-
+main section .izq {
+  width: 40%;
 }
+
+main section .der {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main section .der comida {
+  width: 100%;
+}
+
+/* ----------------------------- Meadia desktop ----------------------------- */
