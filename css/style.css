@@ -187,7 +187,7 @@ header nav ul li .activo {
   display: flex;
 }
 
-.hero > div {
+.hero>div {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -353,8 +353,7 @@ main section .columna:hover img {
   }
 }
 
-@media (min-width: 62.75em) {
-}
+@media (min-width: 62.75em) {}
 
 /* -------------------------------- mediamain ------------------------------- */
 
@@ -429,6 +428,7 @@ main section .contenido article p {
 main section .contenido article a {
   font-weight: 700;
   margin-left: 1em;
+
 }
 
 #ourblogs .row article {
@@ -468,4 +468,12 @@ main section .row article .fecha p {
   #ourblogs .row article {
     width: 33.33%;
   }
+
+  main section .contenido {
+    margin-bottom: 7.000em;
+
+  }
 }
+
+
+/* --------------------------- INICIO PAGINA MENU --------------------------- */
