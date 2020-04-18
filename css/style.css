@@ -506,7 +506,7 @@ main .row nav ul li a {
 main .row nav ul li a:hover {
   background-color: var(--color-principal);
   border-radius: 0.313em;
-  width: 80%;
+  width: 90%;
   transition: 0.5s;
 }
 
@@ -542,41 +542,27 @@ main .row .carta .comida .descripcion span {
   font-weight: 700;
   margin-left: 0.938em;
   color: var(--color-principal);
- 
 }
-main section .row article .descripcion i{
-  
-  font-size: 1em ;
+main section .row article .descripcion i {
+  font-size: 1em;
   border: 0;
 }
 
-
 @media (max-width: 48em) {
   main section .row .menu {
-    
     width: 100%;
   }
   main section .row .carta {
-   
     width: 100%;
   }
-  
+
   main section .row .carta .comida .img_comida {
-    
     width: 95%;
   }
   main section .row .carta .comida .descripcion {
-    
     width: 100%;
   }
-  
 }
-
-
-
-
-
-
 
 /*
 
