@@ -272,6 +272,7 @@ main section .underline {
   margin-bottom: 2em;
 }
 
+
 main section .underline hr {
   border-color: var(--color-principal);
   position: absolute;
@@ -477,3 +478,85 @@ main section .row article .fecha p {
 
 
 /* --------------------------- INICIO PAGINA MENU --------------------------- */
+
+main #todaymenu {
+  background-color: var(--color-secundario);
+  color: white;
+}
+
+main #todaymenu h2 {
+  color: white;
+
+}
+
+main .row .lateral-izq {
+  width: 100%;
+
+}
+
+main .row .lateral-izq nav {
+  padding-bottom: 1.563em;
+}
+
+main .row .lateral-izq nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.825em;
+  margin: 1em;
+  font-weight: 700;
+
+}
+
+main .row .lateral-izq nav ul li a:hover {
+  background-color: var(--color-principal);
+  border-radius: 0.313em;
+  transition: 0.5s;
+}
+
+main .row .lateral-izq .line_menu {
+  width: 10%;
+}
+
+main .row .lateral-izq .line_menu hr {
+  color: var(--color-principal);
+  margin-bottom: 1em;
+}
+
+main section .row .lateral-izq {
+
+  border-bottom: 0;
+}
+
+
+main .row .lateral-der {
+  width: 90%;
+  margin: 0 auto;
+
+
+}
+
+main .row .lateral-der h3 {
+  font-size: 1.250em;
+}
+
+main .row .lateral-der span {
+  font-weight: 700;
+  margin-left: 0.938em;
+  color: var(--color-principal);
+  font-size: 1.250em;
+
+}
+
+main .row .lateral-der a {
+
+  font-weight: 700;
+  margin: 2em 0;
+}
+
+main section .row .lateral-der,
+main section .row .lateral-izq {
+
+  border-left: 0;
+
+}
