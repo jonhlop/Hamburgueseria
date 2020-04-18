@@ -548,6 +548,12 @@ main section .row article .descripcion i {
   border: 0;
 }
 
+main section .flecha a {
+  color: transparent;
+}
+
+/* ------------------------------- media movil ------------------------------ */
+
 @media (max-width: 48em) {
   main section .row .menu {
     width: 100%;
@@ -561,5 +567,17 @@ main section .row article .descripcion i {
   }
   main section .row .carta .comida .descripcion {
     width: 100%;
+  }
+  main section .flecha a {
+    color: white;
+    background-color: var(--color-principal);
+    display: block;
+    text-align: center;
+    padding-top: 0.313em;
+    width: 2em;
+    height: 2em;
+    border-radius: 0.313em;
+    float: right;
+    margin-right: 2em;
   }
 }
