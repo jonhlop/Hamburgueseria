@@ -187,7 +187,7 @@ header nav ul li .activo {
   display: flex;
 }
 
-.hero>div {
+.hero > div {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -220,7 +220,6 @@ header nav ul li .activo {
   border: 1px solid var(--color-principal);
   margin: 1em 0;
 }
-
 
 .boton i {
   transition: transform 0.5s;
@@ -271,7 +270,6 @@ main section .underline {
   font-weight: bold;
   margin-bottom: 2em;
 }
-
 
 main section .underline hr {
   border-color: var(--color-principal);
@@ -354,7 +352,8 @@ main section .columna:hover img {
   }
 }
 
-@media (min-width: 62.75em) {}
+@media (min-width: 62.75em) {
+}
 
 /* -------------------------------- mediamain ------------------------------- */
 
@@ -429,7 +428,6 @@ main section .contenido article p {
 main section .contenido article a {
   font-weight: 700;
   margin-left: 1em;
-
 }
 
 #ourblogs .row article {
@@ -471,13 +469,116 @@ main section .row article .fecha p {
   }
 
   main section .contenido {
-    margin-bottom: 7.000em;
-
+    margin-bottom: 7em;
   }
 }
 
-
 /* --------------------------- INICIO PAGINA MENU --------------------------- */
+
+main section h1 {
+  color: white;
+  font-family: var(--fuentesecundaria);
+  font-size: 2em;
+  text-align: center;
+}
+
+main section h1 span {
+  color: var(--color-principal);
+}
+main #todaymenu {
+  background-color: var(--color-secundario);
+  color: white;
+}
+
+main .row nav {
+  padding-bottom: 1.563em;
+}
+
+main .row nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.825em;
+  margin: 1em;
+  font-weight: 700;
+}
+
+main .row nav ul li a:hover {
+  background-color: var(--color-principal);
+  border-radius: 0.313em;
+  width: 80%;
+  transition: 0.5s;
+}
+
+main .row .line_menu {
+  width: 15%;
+}
+
+main .row .line_menu hr {
+  border-color: var(--color-principal);
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+main section .row .menu {
+  border: 0px;
+  width: 35%;
+}
+main section .row .carta {
+  border: 0px;
+  width: 65%;
+}
+
+main section .row .carta .comida .img_comida {
+  padding: 0.625em;
+  width: 35%;
+}
+main section .row .carta .comida .descripcion {
+  padding-left: 25px;
+  width: 65%;
+}
+
+main .row .carta .comida .descripcion span {
+  font-weight: 700;
+  margin-left: 0.938em;
+  color: var(--color-principal);
+ 
+}
+main section .row article .descripcion i{
+  
+  font-size: 1em ;
+  border: 0;
+}
+
+
+@media (max-width: 48em) {
+  main section .row .menu {
+    
+    width: 100%;
+  }
+  main section .row .carta {
+   
+    width: 100%;
+  }
+  
+  main section .row .carta .comida .img_comida {
+    
+    width: 95%;
+  }
+  main section .row .carta .comida .descripcion {
+    
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
+
+
+/*
 
 main #todaymenu {
   background-color: var(--color-secundario);
@@ -560,4 +661,5 @@ main section .der comida {
   width: 100%;
 }
 
+*/
 /* ----------------------------- Meadia desktop ----------------------------- */
